@@ -31,11 +31,24 @@ This is a TypeScript REST API with CRUD operations for users built using Node.js
   ```bash
   npm start
 
-5. The server will be running at http://localhost:3000:
-```bash
-  npm start
 
 
+# API Endpoints
+
+## GET /users
+Get all users
+
+## GET /users/:id
+Get a user by ID
+
+## POST /users
+Create a new user
+
+## PUT /users/:id
+Update an existing user by ID
+
+## DELETE /users/:id
+Delete a user by ID
 
 
 

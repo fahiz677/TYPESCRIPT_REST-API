@@ -1,6 +1,6 @@
 import  express  from "express";
 import authentication from "./authentication";
-import user from "./user";
+import user from "./users";
 
 
 const router = express.Router();

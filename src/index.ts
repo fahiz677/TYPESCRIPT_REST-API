@@ -29,10 +29,11 @@ server.listen(PORT, () => {
   console.log('Server running on http://localhost:8080/');
 });
 
-const MONGO_URL = 'process.env.CONNECTION_URL'; // DB URI
+const MONGO_URL = process.env.CONNECTION_URL; // DB URI
+
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
-mongoose.connection.on('error', (error: Error) => console.log(error));
+mongoose.connection.on('error', (error: Error) => console.log(error,"fahiz"));
 
 app.use('/', router());

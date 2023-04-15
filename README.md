@@ -31,7 +31,7 @@ This is a TypeScript REST API with CRUD operations for users built using Node.js
   ```bash
   npm start
 
-5. The server will be running at http://localhost:3000.
+5. The server will be running at http://localhost:3000:
 
 # API Endpoints
 

@@ -33,6 +33,8 @@ This is a TypeScript REST API with CRUD operations for users built using Node.js
 
 5. The server will be running at http://localhost:3000:
 
+  ```bash
+
 # API Endpoints
 
 ## GET /users

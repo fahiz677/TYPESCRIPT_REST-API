@@ -12,7 +12,7 @@ This is a TypeScript REST API with CRUD operations for users built using Node.js
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/fahiz677/TYPESCRIPT_REST-API.git
+   git clone https://github.com/fahizp/TYPESCRIPT_REST-API.git
    ```
 
 2. Install dependencies:
